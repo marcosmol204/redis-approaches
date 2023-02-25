@@ -18,10 +18,13 @@ It's important to acknowledge that while this repository provides a range of sol
 
 So if you're looking to integrate Redis into your application, we encourage you to explore the examples in this repository and to contribute your own solutions. Let's work together to make Redis more accessible and powerful for everyone.
 
+# `Approaches list`
+- [`Cache`](https://en.wikipedia.org/wiki/HTTP_404)
+
 ## Core Team
 <table width="700px">
   <tr>
-      <td align="center"><a href="https://github.com/marcosmol204"><img src="https://avatars.githubusercontent.com/u/53741892?v=4?s=200" width="200px;" alt=""/><br /><sub><b>Marcos Molina</b></sub></a><br /><a href="https://github.com/practicajs/practica/commits?author=marcosmol204" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/marcosmol204"><img src="https://avatars.githubusercontent.com/u/53741892?v=4?s=200" width="200px;" alt=""/><br /><sub><b>Marcos Molina</b></sub></a><br /><a href="https://github.com/marcosmol204/redis-approaches/commits?author=marcosmol204" title="Code">💻</a></td>
 </tr>
 <tr>
  </table>
