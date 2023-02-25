@@ -10,3 +10,8 @@ Redis is a popular in-memory data structure store that is widely used as a datab
 This repository aims to provide a collection of common usage examples for Redis in multiple programming languages. By providing examples in different languages, we hope to make it easier for developers to get started with Redis and to build high-performance applications that leverage its capabilities.
 
 We invite you to contribute your own examples and to collaborate with other developers in the community. Let's work together to make Redis even more accessible and powerful!
+
+## Philosophy
+It's important to acknowledge that while this repository provides a range of solutions for common Redis use cases, it's impossible to cater to the specific needs of every team and project. The examples provided are intended as a starting point, and developers are encouraged to adapt them to their own use cases as needed.
+
+So if you're looking to integrate Redis into your application, we encourage you to explore the examples in this repository and to contribute your own solutions. Let's work together to make Redis more accessible and powerful for everyone.
