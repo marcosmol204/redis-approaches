@@ -30,4 +30,4 @@ Members of the steering committee work together to provide guidance and future d
 
 ### Collaborators
 
-Collaborators are members who are contributing to the repository on a regular basis. Please check [Pull requests ](pull-requests) section.
+Collaborators are members who are contributing to the repository on a regular basis. Please check [Pull requests ](#pull-requests) section.
