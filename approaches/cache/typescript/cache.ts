@@ -9,11 +9,11 @@ export interface Cache {
 export class RedisCache implements Cache {
   constructor(private readonly redis: Redis) {}
 
-  async set(key: string, value: unknown, ttl: number): Promise<void> {
+  async set<T>(key: string, value: T, ttl: number): Promise<void> {
     await this.redis.set(key, JSON.stringify(value), "EX", ttl);
   }
 
-  async get(key: string): Promise<unknown> {
+  async get<T>(key: string): Promise<T> {
     const cachedValue = await this.redis.get(key);
     return cachedValue ? JSON.parse(cachedValue) : null;
   }
