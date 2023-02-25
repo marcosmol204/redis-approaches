@@ -1,8 +1,8 @@
 import Redis from "ioredis";
 
 export interface Cache {
-  set(key: string, value: unknown, ttl: number): Promise<void>;
-  get(key: string): Promise<unknown>;
+  set<T>(key: string, value: T, ttl: number): Promise<void>;
+  get<T>(key: string): Promise<T>;
   del(key: string): Promise<void>;
 }
 
@@ -10,7 +10,10 @@ export class RedisCache implements Cache {
   constructor(private readonly redis: Redis) {}
 
   async set<T>(key: string, value: T, ttl: number): Promise<void> {
-    await this.redis.set(key, JSON.stringify(value), "EX", ttl);
+    if (typeof value === "object") {
+      return await this.redis.set(key, JSON.stringify(value), "EX", ttl);
+    }
+    return await this.redis.set(key, value, "EX", ttl);
   }
 
   async get<T>(key: string): Promise<T> {

@@ -18,6 +18,16 @@ It's important to acknowledge that while this repository provides a range of sol
 
 So if you're looking to integrate Redis into your application, we encourage you to explore the examples in this repository and to contribute your own solutions. Let's work together to make Redis more accessible and powerful for everyone.
 
+## Core Team
+
+<table width="700px">
+  <tr>
+	<td align="center"><img src="./static/images/yoni.jpeg" width="300px" alt=""/><br /><h3>Marcos Molina</h3><br/>Full Stack developer<br/><a href="https://twitter.com/goldbergyoni"><img src="./static/images/twitter-symbol.png" width="16" height="16"></img></a>
+<a href="https://goldbergyoni.com"><img src="./static/images/site-symbol.png" width="16" height="16"></img></a>
+</td>
+</tr>
+<tr>
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
