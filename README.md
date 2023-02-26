@@ -19,7 +19,7 @@ It's important to acknowledge that while this repository provides a range of sol
 So if you're looking to integrate Redis into your application, we encourage you to explore the examples in this repository and to contribute your own solutions. Let's work together to make Redis more accessible and powerful for everyone.
 
 # Approaches list
-- [`Cache`](https://en.wikipedia.org/wiki/HTTP_404)
+- [`Cache`](https://github.com/marcosmol204/redis-approaches/blob/main/approaches/cache/cache.md)
 
 ## Core Team
 <table width="700px">
