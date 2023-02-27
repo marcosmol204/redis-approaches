@@ -20,7 +20,7 @@ So if you're looking to integrate Redis into your application, we encourage you 
 
 # Approaches list
 
-- [`Cache`](https://en.wikipedia.org/wiki/HTTP_404)
+- [`Cache`](https://github.com/marcosmol204/redis-approaches/blob/main/approaches/cache/cache.md)
 
 ## Core Team
 
@@ -30,6 +30,9 @@ So if you're looking to integrate Redis into your application, we encourage you 
 </tr>
 <tr>
  </table>
+ 
+## Contribution guide
+Can be found [here](https://github.com/marcosmol204/redis-approaches/blob/main/.operations/CONTRIBUTING.md)
 
 ## Contributors
 
