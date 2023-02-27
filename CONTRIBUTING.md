@@ -24,10 +24,10 @@ This project is based on community knowledge. You are welcome to improve this pr
 
 ## Contribution model
 
-### Steering committee
+### Core team
 
-Members of the steering committee work together to provide guidance and future direction to the project. The steering committee members are responsible for approving new best approachs, and ensuring the content is relevant.
+Members of the core team work together to provide guidance and future direction to the project. The core teams members are responsible for approving new best approachs, and ensuring the content is relevant.
 
 ### Collaborators
 
-Collaborators are members who are contributing to the repository on a regular basis. Please check [Pull requests ](#pull-requests) section.
+Collaborators are members who are contributing to the repository on a regular basis. Please check [Pull requests](#pull-requests) section.
