@@ -1,8 +1,22 @@
 {
-    "files": [
-        "README.md"
-    ],
-    "imageSize": 200,
-    "commit": false,
-    "contributors": []
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 200,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Yarden-Ankonina",
+      "name": "Yarden Ankonina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11579674?v=4",
+      "profile": "https://www.linkedin.com/in/yarden-ankonina/",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "projectName": "redis-approaches",
+  "projectOwner": "marcosmol204"
 }
