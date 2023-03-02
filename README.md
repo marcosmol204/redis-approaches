@@ -2,7 +2,7 @@
   <img src="assets/images/banner.png" alt="Redis Approaches"/ height="500px">
 </h1>
 
-# Redis Approaches
+# The project
 
 Welcome to our open source repository for sharing common usage examples of Redis in multiple programming languages!
 
@@ -18,9 +18,15 @@ It's important to acknowledge that while this repository provides a range of sol
 
 So if you're looking to integrate Redis into your application, we encourage you to explore the examples in this repository and to contribute your own solutions. Let's work together to make Redis more accessible and powerful for everyone.
 
-# Approaches list
+# Content 
+## Approaches list
 
 - [`Cache`](https://github.com/marcosmol204/redis-approaches/blob/main/approaches/cache/cache.md)
+
+# Contribution
+
+## Contribution guide
+Can be found [here](https://github.com/marcosmol204/redis-approaches/blob/main/.operations/CONTRIBUTING.md)
 
 ## Core Team
 
@@ -31,9 +37,6 @@ So if you're looking to integrate Redis into your application, we encourage you 
 <tr>
  </table>
  
-## Contribution guide
-Can be found [here](https://github.com/marcosmol204/redis-approaches/blob/main/.operations/CONTRIBUTING.md)
-
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
