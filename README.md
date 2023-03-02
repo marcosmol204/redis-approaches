@@ -39,6 +39,13 @@ Can be found [here](https://github.com/marcosmol204/redis-approaches/blob/main/.
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/yarden-ankonina/"><img src="https://avatars.githubusercontent.com/u/11579674?v=4?s=200" width="200px;" alt="Yarden Ankonina"/><br /><sub><b>Yarden Ankonina</b></sub></a><br /><a href="#content-Yarden-Ankonina" title="Content">🖋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
