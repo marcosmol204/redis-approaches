@@ -9,7 +9,7 @@ export interface Cache {
 export class RedisCache implements Cache {
   constructor(private readonly redis: Redis) {}
 
-  async set<T>(key: string, value: T, ttl: number): Promise<void> {
+  async set<T extends object>(key: string, value: T, ttl: number): Promise<void> {
     if (typeof value === "object") {
       return await this.redis.set(key, JSON.stringify(value), "EX", ttl);
     }
