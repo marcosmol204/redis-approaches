@@ -16,7 +16,7 @@ export class RedisCache implements Cache {
     return await this.redis.set(key, value, "EX", ttl);
   }
 
-  async get<T>(key: string): Promise<T> {
+  async get<T extends object>(key: string): Promise<T> {
     const cachedValue = await this.redis.get(key);
     return cachedValue ? JSON.parse(cachedValue) : null;
   }
