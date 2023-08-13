@@ -11,9 +11,9 @@ export class RedisCache implements Cache {
 
   async set<T extends object>(key: string, value: T, ttl: number): Promise<void> {
     if (typeof value === "object") {
-      return await this.redis.set(key, JSON.stringify(value), "EX", ttl);
+      return this.redis.set(key, JSON.stringify(value), "EX", ttl);
     }
-    return await this.redis.set(key, value, "EX", ttl);
+    return this.redis.set(key, value, "EX", ttl);
   }
 
   async get<T extends object>(key: string): Promise<T> {
@@ -22,6 +22,6 @@ export class RedisCache implements Cache {
   }
 
   async del(key: string): Promise<void> {
-    await this.redis.del(key);
+    return this.redis.del(key);
   }
 }
